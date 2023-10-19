@@ -1,0 +1,71 @@
+*{
+    font-family: "Heebo",sans-serif;
+}
+
+body {
+    background-color: #F1F1F1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    border-radius: 20px;
+    width: 80%;
+    background-color: white;
+}
+
+.content .author {
+    padding-left: 20px;
+}
+.content .title {
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.content .info {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content .info h5 {
+    font-size: 25px;
+}
+
+.content .info h3 {
+    font-size: 30px;
+}
+
+.content .info h4 {
+    font-size: 25px;
+}
+
+.content .info p {
+    font-size: 20px;
+}
+
+.content .info img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content .info .tb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center 
+}
+
+.content .info .tbdetail {
+    width: 60%;
+    
+}
+
+.content .info .tbdetail table {
+    border: 1px solid black;
+}

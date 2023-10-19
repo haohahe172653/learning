@@ -1,0 +1,82 @@
+body {
+    background-color: #F1F1F1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+  text-decoration: none;  
+}
+
+.search {
+    justify-content: center;
+}
+
+input {
+    margin-top: 20px;
+    width: 400px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px black;
+}
+
+#search-button {
+    display: none;
+}
+
+.list-item {
+    width: 80%;
+    padding-top: 20px;
+}
+
+.list-item .item {
+    display: flex;
+/*    justify-content: space-between;*/
+    background-color: white;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.list-item .item .top {
+    padding-top: 20px;
+}
+
+.list-item .item .bottom p{
+    color: #bbbbbb;
+}
+
+.list-item .item .blog-image {
+    padding: 10px 10px 10px 10px;
+/*    justify-content: center;
+    align-items: center;*/
+
+}
+
+.list-item .item .phantrang {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.list-item .item .blog-image .img img {
+    height: 180px;
+    width: 180px;
+}
+
+.list-item .item .blog-detail {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.page {
+    padding-top: 20px;
+}
+
